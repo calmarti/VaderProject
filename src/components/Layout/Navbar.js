@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="box-border bg-zinc-900 text-slate-200 h-24">
+    <nav className="fixed box-border bg-zinc-900 text-slate-200 h-24 w-full">
       <ul className="flex justify-center items-center gap-x-14 h-24">
         <li>BIO</li>
         <li>ARTICULOS </li>
