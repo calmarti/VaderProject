@@ -1,17 +1,21 @@
+//TODO: problema: ancho de la imagen mayor que el ancho de viewport
 export default function Hero() {
   return (
-    <div className="bg-cover h-screen bg-[url('/public/img/pen-g55cb87a4a_1280.jpg')]">
-      <div className="">
-        <div
-          style={{ fontFamily: "Courier Prime" }}
-          className="text-left relative top-96 left-24 text-6xl font-bold drop-shadow-2xl typing-effect"
-        >
-          Ibsen Martínez
-        </div>
-        <div className="text-left relative top-96 left-28 font-bold text-xl fade-in">
-          Escritor de ficciones, ensayos y artículos
-        </div>
-      </div>
+    <div className="box-border overflow-hidden overscroll-none flex flex-col justify-center items-center w-screen bg-center bg-cover h-screen bg-[url('/public/img/pen-gfae9aaaab_1920.jpg')]">
+     
+      <p
+        style={{ fontFamily: "Courier Prime" }}
+        className="mr-96 text-6xl typing-effect"
+      >
+        Ibsen Martínez <br/>
+      </p>
+     {/*  <br/> */}
+      <p className="mr-96 text-xl fade-in">
+        Escritor de ficciones, ensayos y artículos
+      </p>
+   
     </div>
   );
 }
+
+//relative top-96 left-24 
