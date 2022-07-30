@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Karla"],
+        sans: ["Karla", '"Plus Prime"'],
       },
     },
   },
