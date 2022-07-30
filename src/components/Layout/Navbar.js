@@ -5,7 +5,9 @@ export default function Navbar() {
         <ul className="flex justify-center items-center gap-x-14 h-24">
           <li className="animated-option">BIO</li>
           <li className="animated-option">BLOG</li>
-          <li className="animated-option">LIBROS</li>
+          <li className="animated-option">
+            <a href="#libros">LIBROS</a>
+          </li>
           <li className="animated-option">TEATRO</li>
         </ul>
       </nav>
