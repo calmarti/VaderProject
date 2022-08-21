@@ -3,6 +3,7 @@ import Home from "./components/Home/Home";
 import "./index.css";
 import "./components/Layout/layout.css"
 import "./effects.css";
+import "./components/Home/home.css";
 
 function App() {
   return (

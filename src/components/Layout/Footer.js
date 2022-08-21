@@ -5,14 +5,16 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
-    <div
-      style={{ backgroundColor: "#18181B" }}
-      className="w-screen h-36 border-t-2 border-white"
-    >
-      <FontAwesomeIcon icon={faTwitter} size="2x" className="icon" />
-      {<FontAwesomeIcon icon={faEnvelope} size="2x" className="icon" />}
-      <p>©2022 </p>
-
+    <div className="footer w-screen h-36 border-t-2 border-white">
+      <div className="footer-items-wrapper">
+        <a href="">
+          <FontAwesomeIcon icon={faTwitter} size="2x" className="icon" />
+        </a>
+        <a href="mailto:ibsenmartinez692@gmail.com">
+          <FontAwesomeIcon icon={faEnvelope} size="2x" className="icon" />
+        </a>
+        <p>©2022 </p>
+      </div>
     </div>
   );
 }

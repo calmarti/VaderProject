@@ -1,4 +1,24 @@
 /* Footer */
+.footer{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.footer-items-wrapper{
+display:flex;
+justify-content: center;
+align-items: center;
+gap:7rem;
+width:100%;
+height: inherit;
+
+}
+
 .icon {
-    font-size:3vw;
+    font-size:2.5vw;
+    color:white;
+}
+
+.icon:hover{
+    transform: scale(1.2);
 }
