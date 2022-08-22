@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="footer w-screen h-36 border-t-2 border-white">
       <div className="footer-items-wrapper">
-        <a href="">
+        <a href="https://twitter.com/IBSENMARTINEZ">
           <FontAwesomeIcon icon={faTwitter} size="2x" className="icon" />
         </a>
         <a href="mailto:ibsenmartinez692@gmail.com">

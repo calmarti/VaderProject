@@ -5,9 +5,8 @@
   animation: typing 1.5s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
-
-  /*  font-size: 2em; */
+  border-right: 4px solid;
+  font-size: 2rem;
 }
 
 @keyframes typing {
@@ -94,18 +93,14 @@
 }
 
 .animated-option {
-    transition: 0.3s ease;
-    border-top: 0.5px solid #111827; /*zinc 900*/
-    border-bottom: 0.5px solid #111827;
-    padding: 12px 0;
-  }
+  transition: 0.3s ease;
+  border-top: 0.5px solid #111827; /*zinc 900*/
+  border-bottom: 0.5px solid #111827;
+  padding: 12px 0;
+}
 
-  .animated-option:hover {
-    border-top: 2px solid red;
-    border-bottom: 2px solid red;
-    padding: 6px 0;
-  }
-
-
-
-
+.animated-option:hover {
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  padding: 6px 0;
+}
