@@ -1,7 +1,7 @@
 //TODO: problema: ancho de la imagen mayor que el ancho de viewport
 export default function Hero() {
   return (
-    <div className="box-border overflow-hidden overscroll-none flex flex-col justify-center items-center w-screen bg-center bg-cover h-screen bg-[url('/public/img/pen-gfae9aaaab_1920.jpg')]">
+    <div id="hero" className= "">
      
       <p
         style={{ fontFamily: "Courier Prime" }}

@@ -2,7 +2,6 @@
 
 ## An author's personal web
 - Bio
-- Blog
+- Press articles
 - Books
 - Plays
-- Press articles

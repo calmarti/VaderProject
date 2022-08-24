@@ -1,4 +1,21 @@
 
+/* Hero */
+
+#hero{
+    box-sizing: border-box;
+    overflow: hidden;
+    overscroll-behavior: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/img/pen-gfae9aaaab_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}
 
 /* More*/
 
@@ -10,6 +27,7 @@
  align-items: center;
  gap:5rem;
  height: 100vh;
+ width: 100vw;
 
 
 }
