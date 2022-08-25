@@ -1,7 +1,7 @@
 
 /* Hero */
 
-#hero{
+.hero{
     box-sizing: border-box;
     overflow: hidden;
     overscroll-behavior: none;
@@ -14,6 +14,15 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
+
+}
+
+.hero-title{
+margin-right: 12rem;
+
+}
+
+.hero-subtitle{
 
 }
 
