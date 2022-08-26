@@ -1,7 +1,44 @@
+/* Navbar */
+
+.header{
+width:100vw;
+height:9.5vh;
+}
+
+
+.navbar{
+    height: inherit;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    color:  var(--light-color);
+    background-color: var(--dark-color);
+    overscroll-behavior: none;
+    overflow:hidden;
+}
+
+.navbar-list{
+margin:0;
+padding:0;
+height: inherit;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:4.5rem;
+list-style-type: none;
+}
+
+.navbar-list > li > a, a:link, a:active, a:hover, a:visited {
+text-decoration: none;
+color:inherit;
+}
+
 /* Footer */
 .footer{
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: var(--dark-color);
+    color:  var(--light-color);
+    height:14vh
 }
 
 .footer-items-wrapper{

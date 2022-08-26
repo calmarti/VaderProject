@@ -9,13 +9,14 @@ body , html{
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
   font-size: 1.6vh;
   font-family: "Open Sans", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
 
-/* :root{
-  --hero-font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
-} */
+:root{
+  --dark-color: #242427;
+  --light-color: rgb(226 232 240);
+}

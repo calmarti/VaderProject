@@ -17,18 +17,23 @@
 
 }
 
+
 .hero-title{
 margin-right: 12rem;
+font-size:4rem;
+font-weight: 200;
 
 }
 
-.hero-subtitle{
 
+.hero-subtitle{
+margin-right:14rem;
+font-size: 1.4rem;
 }
 
 /* More*/
 
-#libros{
+.libros{
  background-color:#92807E;
  color: #000000;
  display:flex;

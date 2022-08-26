@@ -9,8 +9,7 @@ export default function Hero() {
       >
         Ibsen Martínez <br/>
       </h1>
-     {/*  <br/> */}
-      <span className="mr-96 text-xl fade-in">
+      <span className="hero-subtitle fade-in">
         Escritor de ficciones, ensayos y artículos
       </span>
    
@@ -18,4 +17,3 @@ export default function Hero() {
   );
 }
 
-//relative top-96 left-24 

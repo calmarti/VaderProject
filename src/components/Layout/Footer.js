@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
-    <div className="footer w-screen h-36 border-t-2 border-white">
+    <div className="footer">
       <div className="footer-items-wrapper">
         <a href="https://twitter.com/IBSENMARTINEZ">
           <FontAwesomeIcon icon={faTwitter} size="2x" className="icon" />
