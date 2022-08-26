@@ -5,3 +5,11 @@
 - Press articles
 - Books
 - Plays
+
+---
+Proposed stack:
+- React
+- NextJS
+- Strapi (optional)
+
+
