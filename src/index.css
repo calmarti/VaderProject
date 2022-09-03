@@ -11,11 +11,12 @@ body , html{
   font-size: 1.6vh;
   font-family: Arvo, "Open Sans", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  color: var(--text-color);
 }
 
 
 :root{
   --dark-color: #242427;
   --light-color: rgb(226 232 240);
-
+  --text-color: #415161;
 }
