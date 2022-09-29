@@ -10,6 +10,6 @@
 Proposed stack:
 - React
 - NextJS
-- Strapi (optional)
+- Strapi or Gatsby (optional)
 
 
