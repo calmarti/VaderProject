@@ -13,10 +13,11 @@ height:10vh;
     left:0;
     right:0;
     color:  var(--light-color);
-    background-color: var(--dark-color);
+    background-color: #FFFFFF;
     overscroll-behavior: none;
     overflow:hidden;
 }
+
 
 .navbar-list{
 margin:0;
@@ -33,6 +34,81 @@ list-style-type: none;
 text-decoration: none;
 color:inherit;
 }
+
+.navbar-list > li:hover {
+    color: var(--dark-color);
+} 
+
+
+
+
+
+/* .fade-in {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animated-option {
+    transition: 0.3s ease;
+    border-top: 0px solid #111827; 
+    border-bottom: 0px solid #111827;
+    padding: 12px 0;
+  }
+  
+  .animated-option:hover {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    padding: 6px 0;
+  } 
+   */
 
 /* Footer */
 .footer{

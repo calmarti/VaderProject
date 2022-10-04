@@ -17,6 +17,6 @@ body , html{
 
 :root{
   --dark-color: #242427;
-  --light-color: rgb(226 232 240);
+  --light-color: rgb(170, 195, 180);
   --text-color: #415161;
 }

@@ -1,6 +1,6 @@
 /*typing effect del título*/
 
-.typing-effect {
+/* .typing-effect {
   width: 15ch;
   animation: typing 1.5s steps(22), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
@@ -19,7 +19,7 @@
   50% {
     border-color: transparent;
   }
-}
+} */
 
 /*animación del subtítulo*/
 /* 
@@ -39,7 +39,7 @@
 
 /* fade-in effect del subtitulo */
 
-.fade-in {
+/* .fade-in {
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;
   -moz-animation: fadeIn ease 8s;
@@ -94,7 +94,7 @@
 
 .animated-option {
   transition: 0.3s ease;
-  border-top: 0px solid #111827; /*zinc 900*/
+  border-top: 0px solid #111827; 
   border-bottom: 0px solid #111827;
   padding: 12px 0;
 }
@@ -103,4 +103,4 @@
   border-top: 2px solid red;
   border-bottom: 2px solid red;
   padding: 6px 0;
-}
+} */
