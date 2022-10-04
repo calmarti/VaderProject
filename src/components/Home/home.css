@@ -27,6 +27,7 @@ width:25vw;
 
 
 .hero-content{
+
 width:60vw;
 padding-right:5rem;
 display:flex;
@@ -37,6 +38,7 @@ text-align: center;
 }
 .hero-text{
 line-height: 2.5rem;
+text-align: justify;
 }
 
 .hero-text-block{
