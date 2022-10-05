@@ -2,20 +2,25 @@
 
 .header{
 width:100vw;
-height: 20vh;
+height: 8vh;
+position:fixed;
+top:0rem;
+left:0;
+right:0;
+
+
 }
 
 
 .navbar{
-    position:fixed;
-    top:4rem;
-    left:0;
-    right:0;
-    height: inherited;
+    height: inherit;
     color:  var(--light-color);
     background-color: #FFFFFF;
     overscroll-behavior: none;
     overflow:hidden;
+    border-bottom-color:  var(--light-color);
+    border-bottom-width:1px;
+    border-bottom-style: solid;
 }
 
 

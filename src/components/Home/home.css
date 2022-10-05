@@ -1,4 +1,6 @@
 
+
+
 /* Hero */
 
 .hero{
@@ -13,7 +15,7 @@
     background-position: center;
     background-size: cover;
     width: 100vw;
-    height: 80vh; 
+    height: 90vh; 
 
 
 }
@@ -37,7 +39,7 @@ flex-direction: column;
 text-align: center;
 }
 .hero-text{
-line-height: 2.5rem;
+line-height: 1.7rem;
 text-align: justify;
 }
 
