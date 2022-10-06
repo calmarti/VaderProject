@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700&display=swap');
 
 body , html{
   margin: 0;
@@ -9,7 +9,7 @@ body , html{
   border: 0;
   box-sizing: border-box;
   font-size: 1.6vh;
-  font-family: Arvo, "Open Sans", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  font-family: Arvo, "Open Sans", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", 
     "Lucida Sans", Arial, sans-serif;
   color: var(--text-color);
 }
@@ -19,4 +19,6 @@ body , html{
   --dark-color: #242427;
   --light-color: rgb(170, 195, 180);
   --text-color: #415161;
+  --navbar-font-family: Inconsolata, "Open Sans",  "Trebuchet MS", "Lucida Sans Unicode", 
+  "Lucida Grande",  "Lucida Sans", Arial, sans-serif;
 }

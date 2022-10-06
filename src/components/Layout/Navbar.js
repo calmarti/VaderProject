@@ -4,22 +4,22 @@ export default function Navbar() {
       <nav className="navbar">
         <ul className="navbar-list">
           <li className="hover-effect">
-          <a href="#bio">HOME</a>
+          <a href="#bio">Home</a>
           </li>
           <li className="hover-effect">
-            <a href="#articulos">BIO</a>
+            <a href="#articulos">Bio</a>
           </li>
           <li className="hover-effect">
-            <a href="#articulos">ARTÍCULOS</a>
+            <a href="#articulos">Artículos</a>
           </li>
           <li className="hover-effect">
-            <a href="#libros">LIBROS</a>
+            <a href="#libros">Libros</a>
           </li>
           <li className="hover-effect">
-          <a href="#teatro">TEATRO</a>
+          <a href="#teatro">Teatro</a>
           </li>
           <li className="hover-effect">
-          <a href="#teatro">ENTREVISTAS</a>
+          <a href="#teatro">Entrevistas</a>
           </li>
         </ul>
       </nav>

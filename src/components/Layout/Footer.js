@@ -13,7 +13,7 @@ export default function Footer() {
         <a href="mailto:ibsenmartinez692@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} size="2x" className="icon" />
         </a>
-        <p>©2022 </p>
+        <p>© 2022 </p>
       </div>
     </div>
   );

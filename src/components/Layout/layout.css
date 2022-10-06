@@ -13,6 +13,9 @@ right:0;
 
 
 .navbar{
+    font-family: var(--navbar-font-family);
+    font-weight:500;
+    font-size: 18.4px;
     height: inherit;
     color:  var(--light-color);
     background-color: #FFFFFF;
@@ -117,9 +120,9 @@ color:inherit;
 
 /* Footer */
 .footer{
-    background-color: var(--dark-color);
-    color:  var(--light-color);
-    height:14vh
+    background-color: var(--light-color);
+    color:  var(--dark-color);
+    height:10vh;
 }
 
 .footer-items-wrapper{
@@ -134,7 +137,7 @@ height: inherit;
 
 .icon {
     /* font-size:2.5vw; */
-    color:white;
+    color:var(--dark-color);
 }
 
 .icon:hover{
