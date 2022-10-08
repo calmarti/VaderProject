@@ -1,9 +1,12 @@
 export default function Navbar() {
+
+//TODO: decidir un aspecto distinto para el footer
+
   return (
     <header className="header">
       <nav className="navbar">
         <ul className="navbar-list">
-          <li className="hover-effect">
+          <li className="active hover-effect">
           <a href="#bio">Home</a>
           </li>
           <li className="hover-effect">

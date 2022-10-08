@@ -47,7 +47,9 @@ color:inherit;
     color: var(--dark-color);
 } 
 
-
+.active {
+  color: var(--dark-color);
+}
 
 
 

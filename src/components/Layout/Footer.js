@@ -1,4 +1,4 @@
-//TODO: pobrar con una tipografía diferente a Karla
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareTwitter, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
