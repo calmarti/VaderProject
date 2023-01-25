@@ -3,6 +3,7 @@
 ## An author's personal web
 - Bio
 - Press articles
+- Translations
 - Books
 - Plays
 
